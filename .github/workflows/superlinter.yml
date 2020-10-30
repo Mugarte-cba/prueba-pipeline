@@ -40,4 +40,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "softer-experiments"
           heroku_email: "miguel.cba11@gmail.com"
-          branch: "dev"
+          branch: "master"
