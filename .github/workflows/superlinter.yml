@@ -35,9 +35,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@v3.6.8
+      - uses: akhileshns/heroku-deploy@v3.5.6
         with:
           heroku_api_key: "18ec78a6-c58c-4cf3-b974-b9d170b1b6be"
           heroku_app_name: "softer-experiments"
           heroku_email: "miguel.cba11@gmail.com"
-          branch: "master"
